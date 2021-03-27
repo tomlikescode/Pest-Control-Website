@@ -92,9 +92,9 @@ const cards = document.querySelectorAll('.services-card');
 cards.forEach(function(card) {
     card.addEventListener('click', function() {
         card.classList.toggle('services-card-click');
-        card.classList.toggle('services-card-click img');
-        card.classList.toggle('services-card-click h3');
-        card.classList.toggle('services-card-click p');
+        card.classList.toggle('services-card-click.img');
+        card.classList.toggle('services-card-click.h3');
+        card.classList.toggle('services-card-click.p');
     })
     
 })
